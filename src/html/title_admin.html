@@ -1,0 +1,43 @@
+<div class="layui-layout layui-layout-admin kit-layout-admin">
+	<div class="layui-header">
+		<div class="layui-logo">SHOP OA SYSTEM</div>
+		<ul class="layui-nav layui-layout-right kit-nav">
+			<li class="layui-nav-item">
+				<a href="javascript:;" id="admin_name">
+					
+				</a>
+			</li>
+			<li class="layui-nav-item"><a id="cancal"><i class="fa fa-sign-out" aria-hidden="true"></i> 注销</a></li>
+		</ul>
+	</div>
+
+	<div class="layui-side layui-bg-black kit-side">
+		<div class="layui-side-scroll">
+			<div class="kit-side-fold"><i class="fa fa-navicon" aria-hidden="true"></i></div>
+			<!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+			<ul class="layui-nav layui-nav-tree ullist" lay-filter="test">
+				<!-- 侧边导航: <ul class="layui-nav layui-nav-tree layui-nav-side"> -->
+					  <li class="layui-nav-item layui-nav-itemed">
+					    <a href="javascript:;">用户管理</a>
+					    <dl class="layui-nav-child">
+					      <dd><a href="userinfo_admin1.html" data-id="1" >用户信息</a></dd>
+					    </dl>
+					  </li>
+					  <li class="layui-nav-item">
+					    <a href="javascript:;">电商管理</a>
+					    <dl class="layui-nav-child">
+					      <dd><a href="sellerinfo_admin.html" data-id="2">电商信息</a></dd>
+					    </dl>
+					  </li>
+					  <li class="layui-nav-item">
+					    <a href="javascript:;">商品信息管理</a>
+					    <dl class="layui-nav-child">
+					      <dd><a href="goodsinfo_admin.html" data-id="3" >商品信息</a></dd>
+					    </dl>
+					  </li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

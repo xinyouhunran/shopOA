@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>注册</title>
+<link rel="stylesheet" href="../css/regsi.css">
+<link rel="stylesheet" href="../js/plugins/layui/css/layui.css" media="all">
+</head>
+<body>
+	<div class="body-bg">
+		<div class="title1"><span>SHOPOASYSTEM</span><span>注册</span></div>
+		<form class="layui-form" action="" id="sellerreg">
+			<div class="layui-form-item">
+				<div class="layui-inline">
+					<label class="layui-form-label">用户名</label>
+					<div class="layui-input-inline">
+						<input type="tel" autocomplete="off" class="layui-input" id="shop_name">
+					</div>
+					<div class="layui-form-mid layui-word-aux" id="layui-form-name" style="display: none;color:red">用户名已经存在</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">密码</label>
+					<div class="layui-input-inline">
+						<input type="password" name="password" lay-verify="pass" placeholder="6-12位" autocomplete="off" class="layui-input"
+						id="shop_password">
+					</div>
+					<div class="layui-form-mid layui-word-aux" id="layui-form-mid" style="display: none;color:red">请正确输入密码格式</div>
+				</div>
+				<div class="layui-form-item">
+					<label class="layui-form-label">再次输密码</label>
+					<div class="layui-input-inline">
+						<input type="password" name="password" lay-verify="pass" placeholder="请输入密码" autocomplete="off" class="layui-input"
+						id="shop_password_repeat">
+					</div>
+					<div class="layui-form-mid layui-word-aux" id="layui-form-m" style="display: none;color:red">两次密码不怎么一样</div>
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<div class="layui-inline">
+					<label class="layui-form-label">商家简介</label>
+					<div class="layui-input-inline">
+						<input type="tel" class="layui-input" id="shop_introduce">
+					</div>
+				</div>
+				<div class="layui-inline">
+					<label class="layui-form-label">商家地址</label>
+					<div class="layui-input-inline">
+						<input type="text" name="email" autocomplete="off" class="layui-input" id="shop_place">
+					</div>
+				</div>
+			</div>
+			<div class="layui-form-item">
+				<div class="layui-inline">
+					<label class="layui-form-label">商家电话</label>
+					<div class="layui-input-inline">
+						<input type="text" name="number" lay-verify="required|number" autocomplete="off" class="layui-input" id="shop_tel">
+					</div>
+					<div class="layui-form-mid layui-word-aux" id="layui-form-t" style="display: none;color:red">请输入正确的手机号</div>
+				</div>
+				<div class="layui-inline">
+					<label class="layui-form-label">注册日期</label>
+					<div class="layui-input-inline">
+						<input type="text" name="date" id="date" lay-verify="date" placeholder="yyyy-MM-dd" autocomplete="off" class="layui-input">
+					</div>
+				</div>
+			</div>
+			<div class="layui-form-item">
+			  	<label class="layui-form-label">商家LOGO</label>
+			  	<div class="layui-input-block">
+			  		<input type="file" id="file" name="title" nultiple>
+			  	</div>
+		  	</div>
+			
+			
+		</form>
+		<div class="layui-form-item">
+				<div class="layui-input-block">
+					<button class="layui-btn" lay-submit="" lay-filter="demo1" id="add_reg">立即提交</button>
+					<button type="reset" class="layui-btn layui-btn-primary" id="resetbtn">重置</button>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
+<script src="../js/lib/jquery-3.2.1.js"></script>
+<script src="../js/plugins/layui/layui.js"></script>
+
+<script type="text/javascript" src="../js/js/regsi.js"></script>

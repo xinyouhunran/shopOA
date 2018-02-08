@@ -1,0 +1,39 @@
+<div class="layui-layout layui-layout-admin kit-layout-admin">
+        <div class="layui-header">
+             <div class="layui-logo">SHOP OA SYSTEM</div>
+            <ul class="layui-nav layui-layout-right kit-nav">
+                <li class="layui-nav-item">
+                     <a href="javascript:;"  id="seller_name">
+                        <img src="http://m.zhengjinfan.cn/images/0.jpg" class="layui-nav-img"> goods
+                    </a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="sellerinfoUpdata.html">基本资料</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item"><a id="cancal"><i class="fa fa-sign-out" aria-hidden="true"></i> 注销</a></li>
+            </ul>
+        </div>
+
+        <div class="layui-side layui-bg-black kit-side">
+            <div class="layui-side-scroll">
+                <div class="kit-side-fold"><i class="fa fa-navicon" aria-hidden="true"></i></div>
+                <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+                <ul class="layui-nav layui-nav-tree ullist" lay-filter="test">
+				<!-- 侧边导航: <ul class="layui-nav layui-nav-tree layui-nav-side"> -->
+					  <li class="layui-nav-item layui-nav-itemed">
+					    <a href="javascript:;">商品管理</a>
+					    <dl class="layui-nav-child">
+					      <dd><a href="goodsinfo1.html" data-id="1" >商品信息</a></dd>
+					      <dd><a href="goodadd.html" data-id="1" >添加商品</a></dd>
+					      <dd><a href="goodupdate.html" data-id="1" >修改商品</a></dd>
+					    </dl>
+					  </li>
+					  <li class="layui-nav-item">
+					    <a href="javascript:;">订单管理</a>
+					    <dl class="layui-nav-child">
+					      <dd><a href="orderlist.html" data-id="2">查询处理</a></dd>
+					    </dl>
+					  </li>
+				</ul>
+            </div>
+        </div>

@@ -1,0 +1,63 @@
+.layui-body{
+	margin-top:70px;
+}
+#container{
+	padding:10px;
+}
+.layui-input-block{
+	margin-left: 0;
+	float: left;
+	margin-top:10px;
+}
+.layui-input-block>.layui-input{
+	width:250px;
+}
+.layui-form-label:nth-of-type(2n+1){
+	clear: left;
+}
+.layui-form-label {
+	padding-left:30px;
+	padding-right:30px;
+	margin-left:30px;
+	width:auto;
+	margin-top:10px;
+}
+.layui-input-block{
+	marker: 10px;;
+}
+.butt{
+	float: left;
+	margin-left:70px;
+	margin-top:10px;
+	height:38px;
+	line-height: 38px;
+	padding:0 18px;
+	background-color: #009688;
+	color:#fff;
+	text-align: center;
+	font-size: 14px;
+	border:0;
+	outline: none;
+}
+.radio>input{
+	margin:14px 4px 0px 20px;
+}
+.layui-table[lay-size=sm] td{
+	padding:5px 0;
+	padding-left:5px;
+}
+table tr strong{
+	color:#007DDB;
+	padding:0 10px;
+}
+table img{
+	display: block;
+	width:50px;
+	height:50px;
+}
+table{
+	
+}
+#table_page{
+	float:right;
+}

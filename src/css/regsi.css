@@ -1,0 +1,18 @@
+.body-bg{
+    width: 400px;
+    margin:42px auto;
+}
+.layui-form-item{
+    margin: 5px 0;
+}
+.layui-form>.layui-form-item {
+ margin-bottom: 0px; 
+clear: both;
+}
+.layui-form-item>.layui-form-item {
+    margin-bottom: 5px; 
+}
+.layui-word-aux{margin-left: 110px;}
+.title1{width: 80%;margin:30px auto;}
+.title1>span{height: 30px;text-align: center;width: 100%;line-height: 30px;font-size: 24px;display: block;}
+#file{margin-top:5px;}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" href="../js/plugins/layui/css/layui.css" media="all">
+		<link rel="stylesheet" type="text/css" href="../css/reg_admin.css"/>
+	</head>
+	<body>
+		<div class="reg_admin">
+			<h2>SHOPOASYSTEM</h2>
+			<div class="layui-tab">
+				  <ul class="layui-tab-title">
+				    <li class="layui-this">管理员</li>
+				    <li>电商用户</li>
+				  </ul>
+				  <div class="layui-tab-content">
+				    <div class="layui-tab-item layui-show">
+				    	<form class="layui-form" action="">
+					  		<div class="layui-form-item">
+					    	<label class="layui-form-label">用户名：</label>
+					    	<div class="layui-input-block">
+					        	<input type="text" name="title" required  lay-verify="required" placeholder="请输入管理员用户名" autocomplete="off" class="layui-input" id="username_ad">
+					    	</div>
+					  		</div>
+						    <div class="layui-form-item">
+						    <label class="layui-form-label">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+						    <div class="layui-input-inline">
+						      <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input" id="password_ad">
+					    </div>
+		    			</form>
+		    			<div class="group">
+					    	<div id="but_ad">登录</div>
+					    </div>
+				    </div>
+				    </div>
+				    <div class="layui-tab-item">
+				    	<form class="layui-form" action="">
+					  		<div class="layui-form-item">
+					    	<label class="layui-form-label">用户名：</label>
+					    	<div class="layui-input-block">
+					        	<input type="text" name="title" required  lay-verify="required" placeholder="请输入电商用户名" autocomplete="off" class="layui-input" id="username_go">
+					    	</div>
+					  		</div>
+						    <div class="layui-form-item">
+						    <label class="layui-form-label">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+						    <div class="layui-input-inline">
+						      <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input" id="password_go">
+					    </div>
+					    
+		    			</form>
+		    			<div class="gruop1">
+					    	<div  id="but_go" >登录</div><i></i>
+					    	<div class="layui-btn-danger" id="but_reg">注册</div>
+					    </div>
+				    </div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../js/lib/jquery-3.2.1.js"></script>
+<script src="../js/lib/jquery.cookie.js"></script>
+<script src="../js/plugins/layui/layui.js"></script>
+<script src="../js/js/reg_admin.js"></script>

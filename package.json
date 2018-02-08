@@ -1,0 +1,23 @@
+{
+  "name": "shopoasystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CQOneSevenZeroOne/ShopOASystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CQOneSevenZeroOne/ShopOASystem/issues"
+  },
+  "homepage": "https://github.com/CQOneSevenZeroOne/ShopOASystem#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}

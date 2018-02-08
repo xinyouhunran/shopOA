@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>SHOPOASYSTEM</title>
+    <link rel="stylesheet" href="../js/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../css/goodls.css" />
+</head>
+
+<body>
+		<div id="title_admin">
+        </div>
+        <div class="layui-body" id="container">
+            <!-- 内容主体区域 -->
+				<div id="goodsinfo1">
+				     <!--用户信息的内容-->
+				     <form class="layui-form" action="" id="fo">
+					  <div class="layui-form-item">
+					    <label class="layui-form-label">商品id</label>
+					    <div class="layui-input-block">
+					      <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品id" autocomplete="off" class="layui-input" id="txt">
+					      
+					    </div>
+					    <button class="layui-btn" id="searchls" type="button">查找</button>
+					    <p style="float:right;line-height:38px;margin-right:20px;">双击表格进行数据修改</p>
+					  </div>
+					 </form>
+				     <table class="layui-table">
+					  <colgroup>
+					    <col width="50">
+					    <col width="50">
+					     <col width="50">
+					    <col width="50">
+					     <col width="50">
+					    <col width="50">
+					     <col width="50">
+					    <col width="50">
+					     <col width="50">
+					    <col width="50">
+					     <col width="50">
+					    <col width="50">
+					     <col width="50">
+					     <col width="50">
+					     <col width="50">
+					  </colgroup>
+					  <thead>
+					    <tr>
+					    	<th>编号</th>
+					      <th>名称</th>
+					      <th>类型</th>
+					      <th>状态</th>
+					      <th>发售日期</th>
+					      <th>价格</th>
+					      <th>库存</th>
+					      <th>出售数量</th>
+					      <th>信息</th>
+					      <th>图片</th>
+					      <th>规格</th>
+					      <th>颜色</th>
+					      <th>运费</th>
+					      <th>商家</th>
+					      <th>操作</th>
+					    </tr> 
+					  </thead>
+					  <tbody>
+					  	
+					  </tbody>
+					</table>
+				</div>
+				   <!-- <div  id="goodsinfo">
+				    	商品信息
+				    </div>
+				    <div id="goods_add">
+				    	添加商品
+				    </div>
+				    <div id="goods_update">
+				    	修改商品
+				    </div>
+				    <div id="orderinfo">
+				    	订单信息
+				    </div>
+				    <div id="order_update">
+				    	处理订单
+				    </div>
+				    <div id="active_info">
+				    	活动信息
+				    </div>
+				    <div id="active_add">
+				    	编辑活动
+				    </div>-->
+			</div>             
+    </div>
+</body>
+</html>
+<script src="../js/lib/jquery-3.2.1.js"></script>
+<script src="../js/lib/jquery.cookie.js"></script>
+<script src="../js/plugins/layui/layui.js"></script>
+<script src="../js/js/title.js"></script>
+<script src="../js/js/goodupdate.js"></script>
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>SHOPOASYSTEM</title>
+    <link rel="stylesheet" href="../js/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../css/goodsinfo_admin.css" />
+</head>
+
+<body>
+        <div id="title_admin">
+        </div>
+        <div class="layui-body" id="container">
+            <!-- 内容主体区域 -->
+				<div id="userinfo_admin">
+				    <form class="layui-form layui-form-pane" action="">
+							<div class="layui-form-item">
+							    <label class="layui-form-label">商品ID</label>
+							    <div class="layui-input-block">
+							    <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品id" autocomplete="off" class="layui-input"  id="goodId">
+							   	</div>
+							    <label class="layui-form-label">商品名称</label>
+							    <div class="layui-input-block">
+							    <input type="text" name="title" required  lay-verify="required" placeholder="请输入商品名称" autocomplete="off" class="layui-input" id="goodName">
+								</div>
+								<label class="layui-form-label">商品状态</label>
+								<div class="layui-input-inline" style="width: 100px;">
+							      <select name="goodStatus" id="goodStatus">
+							        <option value="-1" selected="">不限</option>
+							        <option value="1" >上架</option>
+							        <option value="0" >下架</option>
+							      </select>
+							   </div>
+								<label class="layui-form-label">商家ID</label>
+							    <div class="layui-input-block">
+							    <input type="text" name="title" required  lay-verify="required"  autocomplete="off" class="layui-input" id="sellerId" placeholder="请输入商家id">
+								</div>
+							    <label class="layui-form-label">商品类型</label>
+							  <div class="layui-input-inline">
+							      <select name="goodType" id="goodType">
+							      </select>
+							   </div>
+
+						</div>	    
+					</form>
+					<div class="butt_bc"><button id="butt">查&nbsp;&nbsp;询</button></div>
+							 	
+					  
+					    <table class="layui-table" lay-filter="test" id="test" lay-size="sm">
+					    	<colgroup>
+							      <col width="50">
+							      <col width="50">
+							      <col width="100">
+							      <col width="60">
+							      <col width="40">
+							      <col width="80">
+							      <col width="20">
+							      <col width="20">
+							      <col width="20">
+							      
+						    </colgroup>
+					        <thead>
+					            <tr>
+					                <th >商品ID</th>
+					                <th>logo</th>
+					                <th>商品名称</th>
+					                <th>商品类型</th>
+					                <th>状态</th>
+					                <th>上架时间</th>
+					                <th>销售价格</th>
+					                <th>库存</th>
+					                <th>销售量</th>
+					            </tr>
+					            <tbody id="table_list">
+					            </tbody>
+					        </thead>
+					    </table>
+				    	<div id="table_page"></div>
+				   </div>
+				</div>
+			</div>             
+      
+    </div>
+</body>
+</html>
+<script src="../js/lib/jquery-3.2.1.js"></script>
+<script src="../js/lib/jquery.cookie.js"></script>
+<script src="../js/plugins/layui/layui.js"></script>
+<script src="../js/js/title_admin.js"></script>
+<script src="../js/js/goodsinfo_admin.js"></script>

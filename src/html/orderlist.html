@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>SHOPOASYSTEM</title>
+    <link rel="stylesheet" href="../js/plugins/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="../css/orderlist.css">
+</head>
+
+<body>
+    <div id="title_admin">
+    </div>
+    <div class="layui-body" id="container">
+        <!-- 内容主体区域 -->	
+		<div id="orderinfo">
+			<form class="layui-form layui-form-pane" action="" lay-size="sm">
+			   	<div class="layui-inline">
+			      <label class="layui-form-label">订单ID</label>
+			      <div class="layui-input-inline">
+			        <input type="text" name="number" autocomplete="off" class="layui-input" id="orderidtext">
+			      </div>
+			   	</div>
+			    <div class="layui-inline">
+			      <label class="layui-form-label">用户名</label>
+			      <div class="layui-input-inline">
+			        <input type="text" name="number" autocomplete="off" class="layui-input" id="usernametext">
+			      </div>
+			    </div> 
+				<div class="layui-inline" id="resdate"><!-- layui-form-item -->
+				    <div class="layui-inline">
+				      <label class="layui-form-label">日期选择</label>
+				      <div class="layui-input-block">
+				        <input type="text" name="date" id="date1" autocomplete="off" class="layui-input">
+				      </div>
+				    </div>
+				</div>
+			  	<div class="layui-form-item" id="readress">
+				    <label class="layui-form-label">收货地址</label>
+				    <div class="layui-input-inline">
+				      <select name="quiz1" id="quiz1">
+				        <option value="" selected="">请选择省/市</option>
+				        <!-- <option value="浙江" >浙江省</option>
+				        <option value="你的工号">江西省</option>
+				        <option value="你最喜欢的老师">福建省</option> -->
+				      </select>
+				    </div>
+				    <!-- <div class="layui-input-inline">
+				      <select name="quiz2" id="quiz2">
+				        <option value="">请选择市/区</option>
+				        <option value="杭州">杭州</option>
+				        <option value="宁波" disabled="">宁波</option>
+				        <option value="温州">温州</option>
+				        <option value="温州">台州</option>
+				        <option value="温州">绍兴</option>
+				      </select>
+				    </div> -->
+				    <!-- <div class="layui-input-inline">
+				      <select name="quiz3" id="quiz3">
+				        <option value="">请选择县</option>
+				       <option value="西湖区">西湖区</option>
+				       <option value="余杭区">余杭区</option>
+				       <option value="拱墅区">临安市</option>
+				      </select>
+				    </div> -->
+			  	</div>
+			</form>
+			<div id="btnbg">
+		    	<button id="orderListbtn">搜索</button>
+		  	</div>
+		</div>
+		<div class="layui-form" id="orderlistcon" >
+		  <table class="layui-table">
+		    <colgroup>
+		      <col width="98">
+		      <col width="98">
+		      <col width="98">
+		      <col width="98">
+		      <col width="98">
+		      <col width="98">
+		      <col width="98">
+		      <col width="98">
+		      <col width="150">
+		      <col width="270">
+		      <col width="98">
+		      <col>
+		    </colgroup>
+		    <thead>
+		      <tr>
+		        <th>订单编号</th>
+		        <th>用户昵称</th>
+		        <th>商品编号</th>
+		        <th>商品名称</th>
+		        <th>规格</th>
+		        <th>颜色</th>
+		        <th>购买数量</th>
+		        <th>订单状态</th>
+		        <th>下单时间</th>
+		        <th>收货地址</th>
+		        <th>操作</th>
+		      </tr> 
+		    </thead>
+		    <tbody id="biuuu_city_list">
+		    </tbody>
+		  </table>
+		</div>
+		<div id="demo20"></div>
+	</div>             
+</body>
+</html>
+<script src="../js/lib/jquery-3.2.1.js"></script>
+<script src="../js/lib/jquery.cookie.js"></script>
+<script src="../js/plugins/layui/layui.js"></script>
+<script src="../js/js/title.js"></script>
+<script src="../js/js/orderlist.js"></script>

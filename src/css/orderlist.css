@@ -1,0 +1,37 @@
+#orderinfo{
+	margin-top: 60px;
+	padding: 30px;
+	padding-top: 0;
+	padding-bottom: 10px;
+}
+.layui-form{padding-top:10px;position:relative;}
+#resdate{margin-top: 10px;}
+#orderinfo .layui-inline{margin-right:70px;margin-bottom:10px;}
+#readress{width:800px;}
+#btnbg{width:65px;position:absolute;left:610px;top:137px;}
+#orderlistcon{padding:0 30px;text-align:center;}
+#orderlistcon table th{text-align: center;}
+#orderListbtn{
+	display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    opacity: .9;
+    outline: none;
+    transition: border-color .3s cubic-bezier(.65,.05,.35,.5);
+    box-sizing: border-box;
+    vertical-align: middle;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.recevicebtn{color:#007DDB;font-weight: 700;cursor: pointer;}
+#demo20{float: right;}
